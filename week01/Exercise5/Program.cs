@@ -22,8 +22,8 @@ class Program
         static string PromptUserName()
         {
             Console.Write("Please enter your name: ");
-            string userName = Console.ReadLine();
-            return userName;
+            string name = Console.ReadLine();
+            return name;
         }
         // Call the funtion to prompt the user for their name
         string userName = PromptUserName();
@@ -31,7 +31,7 @@ class Program
         //Ask for and return the user's favorite number as an integer
         static int PromptUserNumber()
         {
-            Console.WriteLine("Please enter your favorite number: ");
+            Console.Write("Please enter your favorite number: ");
             int number = int.Parse(Console.ReadLine());
             return number;
         }
@@ -48,7 +48,7 @@ class Program
 
         // Call the funtion to square the user's favorite number and display the result
         int squaredNumber = SquareNumber(number);
-        Console.WriteLine($"Your favorite number squared is {squaredNumber}.");
+        Console.WriteLine($"{userName}, your favorite number squared is {squaredNumber}.");
 
         //
     
