@@ -14,7 +14,6 @@ public class Product
     }
 
     // The Product does its own math. 
-    // This is Encapsulation. The math stays inside the "Price Tag."
     public double CalculateTotalCost()
     {
         return _price * _quantity;

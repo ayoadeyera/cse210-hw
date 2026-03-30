@@ -24,8 +24,7 @@ public class Order
             total += product.CalculateTotalCost();
         }
 
-        // Shipping logic (Abstraction)
-        // The Order asks the Customer "Are you in the USA?"
+        // Shipping logic 
         if (_customer.IsInUSA())
         {
             total += 5;
