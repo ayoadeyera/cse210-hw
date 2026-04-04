@@ -11,8 +11,6 @@
       to the user experience.
 */
 
-
-
 using System;
 class Program
 {
